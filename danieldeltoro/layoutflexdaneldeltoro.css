@@ -1,0 +1,14 @@
+.topnav {
+	display: flex;
+	flex-direction: column;
+}
+.content{
+	display: flex;
+	flex-wrap: wrap;
+}
+	/*DISEÑO PARA ESCRITORIO*/
+	@media (max-width: 800px){
+		.topnav{
+			flex-direction: row;
+	}
+}
